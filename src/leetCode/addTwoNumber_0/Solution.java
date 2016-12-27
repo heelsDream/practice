@@ -5,6 +5,12 @@ package leetCode.addTwoNumber_0;
  */
 
 public class Solution {
+    /**
+     * Get the sum of two input numbers
+     * @param a: string representation of input number
+     * @param b: string representation of input number
+     * @return a string representation of the sum of two numbers
+     */
     public String addTwoNum1(String a, String b){
         /* ArrayList res = new ArrayList(); */
         StringBuilder res = new StringBuilder();
