@@ -1,13 +1,13 @@
-# exclude .idea from git tracking/sync
-.idea 
-leetCode
-testCode
-index-files
-out
+## exclude .idea from git tracking/sync
+.idea/
+leetCode/
+testCode/
+index-files/
+out/
 
-# ignore generated html files,
+## ignore generated html files
 *.html
 *.js
 *.css
 *.DS_Store
-*.iml
+*.xml
