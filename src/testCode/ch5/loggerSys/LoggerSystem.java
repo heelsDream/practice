@@ -33,7 +33,7 @@ public class LoggerSystem {
         int quaters = (changeDue % PENNY_PER_DOLLAR) / PENNY_PER_QUATER;
         Logger.getGlobal().info("finished computing changes");
 
-        // display changes // testing
+        // display changes // testing for git hub
         System.out.printf("change due is %d dollor coins and %5d quaters", dollarCoins, quaters);
     }
 }
