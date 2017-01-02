@@ -28,6 +28,7 @@ public class Question {
         return this.answer.equals(response);
     }
 
+    // display the question text
     public void display(){
         System.out.println("the question is: ");
         System.out.println(text);
