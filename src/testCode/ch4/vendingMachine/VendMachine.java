@@ -21,7 +21,7 @@ public class VendMachine {
         final int PENNY_PER_DOLLAR = 100;
         final int PENNY_PER_QUATER = 25;
 
-        // compute changes
+        // compute changes sdf
         int changeDue = billValue - itemPrice;
         int dollarCoins = changeDue / PENNY_PER_DOLLAR;
         int quaters = (changeDue % PENNY_PER_DOLLAR) / PENNY_PER_QUATER;
