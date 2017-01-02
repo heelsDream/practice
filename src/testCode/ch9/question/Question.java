@@ -29,6 +29,7 @@ public class Question {
     }
 
     public void display(){
+        System.out.println("the question is: ");
         System.out.println(text);
     }
 }
