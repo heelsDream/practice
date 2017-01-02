@@ -7,3 +7,7 @@ out
 
 # ignore generated html files,
 *.html
+*.js
+*.css
+*.DS_Store
+*.iml
