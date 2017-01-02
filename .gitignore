@@ -1,0 +1,5 @@
+# exclude .idea from git tracking/sync
+.idea 
+
+# ignore generated html files,
+*.html
