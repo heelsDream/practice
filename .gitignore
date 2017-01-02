@@ -11,4 +11,5 @@ out/
 *.css
 *.DS_Store
 *.iml
+*.xml
 
