@@ -1,5 +1,9 @@
 # exclude .idea from git tracking/sync
 .idea 
+leetCode
+testCode
+index-files
+out
 
 # ignore generated html files,
 *.html
