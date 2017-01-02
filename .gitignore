@@ -10,6 +10,5 @@ out/
 *.js
 *.css
 *.DS_Store
-*.iml
 *.xml
 
