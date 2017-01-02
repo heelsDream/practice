@@ -10,7 +10,6 @@ public class BankAcct {
     private double currBalance;
     public BankAcct(){
         this.currBalance = 0.0;
-        // this(0.0);   // Call another constructor of this class and supply the value 0.0
     }
     public BankAcct(double initialBalance){
         this.currBalance = initialBalance;

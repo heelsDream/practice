@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+# exclude .idea from git tracking/sync
+.idea
+leetCode
+testCode
+index-files
+out
+
+# ignore generated html files,
+*.html
+*.js
+*.css
+*.DS_Store
+=======
 # exclude .idea from git tracking/sync
 .idea 
 leetCode
@@ -10,4 +24,5 @@ out
 *.js
 *.css
 *.DS_Store
+>>>>>>> 5cfaa140a855ed28475703d91618df7ab4166c41
 *.iml
