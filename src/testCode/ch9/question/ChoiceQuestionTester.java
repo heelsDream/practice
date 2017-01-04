@@ -21,9 +21,15 @@ public class ChoiceQuestionTester {
         cq2.setChoice("America", false);
         cq2.setChoice("France", false);
 
+        /* use an instance method */
+        cq1.presentQuestion();
+        cq2.presentQuestion();
+
+        /* through a static method
         presentQuestion(cq1);
         System.out.println("");
         presentQuestion(cq2);
+        */
     }
 
     /**

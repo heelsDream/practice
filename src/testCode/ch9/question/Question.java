@@ -1,5 +1,7 @@
 package testCode.ch9.question;
 
+import java.util.Scanner;
+
 /**
  * Created by flyboy on 1/1/2017.
  */
@@ -32,5 +34,13 @@ public class Question {
     public void display(){
         System.out.println("the question is: ");
         System.out.println(text);
+    }
+
+    public void presentQuestion(){
+        this.display();
+        System.out.print("Your answer is: ");
+        Scanner input = new Scanner(System.in);
+        String response = input.nextLine();
+        System.out.printf("Your answer is %s \n\n", this.checkAnswer(response));
     }
 }

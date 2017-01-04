@@ -9,6 +9,6 @@ out/
 *.html
 *.js
 *.css
-*.DS_Store
+.DS_Store
 *.xml
 *.iml
