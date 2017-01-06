@@ -1,7 +1,8 @@
 package testCode.ch9.employee;
 
 /**
- * Created by pingjiex on 1/5/17.
+ * @author: Created by pingjiex on 1/5/17.
+ * @reference: book#544
  */
 public abstract class Employee {
     private String name;
